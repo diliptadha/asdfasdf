@@ -1,0 +1,75 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'space-between',
+    backgroundColor: '#f2f2f2',
+  },
+  email: {
+    borderWidth: 1,
+    color: '#000',
+    borderRadius: 14,
+    height: 50,
+    fontSize: 20,
+    marginHorizontal: 30,
+    backgroundColor: 'rgba(0,0,0,0.1)',
+    borderColor: '#e0e0e0',
+    paddingHorizontal: 20,
+  },
+  name: {
+    borderWidth: 1,
+    color: '#000',
+    borderRadius: 14,
+    height: 50,
+    fontSize: 20,
+    marginHorizontal: 30,
+    backgroundColor: 'rgba(0,0,0,0.1)',
+    borderColor: '#e0e0e0',
+    paddingHorizontal: 20,
+    marginTop: 40,
+  },
+
+  buttonAuth: {
+    marginTop: 40,
+    marginHorizontal: '23%',
+    borderRadius: 17,
+    backgroundColor: '#426bf2',
+    padding: 15,
+  },
+  inputPass: {
+    borderWidth: 1,
+    borderRadius: 14,
+    height: 50,
+    fontSize: 20,
+    marginHorizontal: 30,
+    backgroundColor: 'rgba(0,0,0,0.1)',
+    borderColor: '#e0e0e0',
+    paddingHorizontal: 20,
+  },
+  wrapperPage: {
+    height: '100%',
+  },
+  header: {
+    fontSize: 25,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  error: {marginHorizontal: 34},
+  inputContainer: {borderBottomWidth: 0},
+  buttonContainer: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: 50,
+  },
+  buttonText: {fontSize: 20, fontWeight: 'bold', color: 'white'},
+  text: {
+    textAlign: 'center',
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '500',
+  },
+  registerText: {color: '#426bf2'},
+});
